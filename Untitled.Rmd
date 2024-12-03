@@ -1,0 +1,22 @@
+---
+title: "bonus"
+output: html_document
+date: "2024-12-03"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r setup}
+
+library(usethis)
+library(gitcreds)
+
+usethis::create_github_token()
+
+```
+
+```{r}
+gitcreds::gitcreds_set()
+```
