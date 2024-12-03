@@ -45,5 +45,9 @@ docs/
 # translation temp files
 po/*~
 
+#other
+*.nb.html
+
+
 # RStudio Connect folder
 rsconnect/
